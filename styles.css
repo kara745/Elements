@@ -1,0 +1,127 @@
+/* Elements */
+
+body {
+	background: linear-gradient(90deg, rgba(0,7,9,1) 16%, rgba(112,22,145,1) 46%, rgba(112,22,145,1) 58%, rgba(122,28,237,1) 73%, rgba(2,0,36,1) 100%, rgba(22,185,237,1) 100%, rgba(11,99,126,1) 100%);;
+	color: black;
+	font-family: sans-serif;
+	line-height: 0;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+.circle {
+	width: 350px;
+	height: 350px;
+	background-color: forestgreen;
+	border-radius: 50%;
+	position: absolute;
+	left: 10%;
+	top: 10%;
+}
+
+.line {
+	height: 1px;
+	width: 100%;
+	background-color: steelblue;
+	transform: rotate(-45deg);
+}
+
+.line-2 {
+	transform: rotate(5deg);
+	position: absolute;
+	top: 5em;
+}
+
+
+.line-3 {
+	transform: rotate(25deg);
+	position: absolute;
+	top: 50em;
+	color: purple;
+}
+
+.line-4 {
+	height: 1px;
+	width: 100%;
+	background-color: lightblue;
+	transform: rotate(110deg);
+	position: absolute;
+	top: 50em;
+	color: purple;
+	
+}
+
+.sphere {
+	background-color: #009688;
+	background: linear-gradient(40deg, rgba(2,0,36,1) 0%, rgba(112,22,145,1) 16%, rgba(122,28,237,1) 37%, rgba(22,185,237,1) 63%, rgba(11,99,126,1) 85%, rgba(0,7,9,1) 100%);
+	box-shadow: -30px -40px 20px black inset;
+	
+}
+
+
+.sphere2 {
+	width: 300px;
+	height: 300px;
+	background-color: forestgreen;
+	border-radius: 50%;
+	position: absolute;
+	left: 45%;
+	top: 2%;
+	background-color: #009688;
+	background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+	box-shadow: -30px -40px 20px black inset;
+}
+
+
+.sphere3 {
+	width: 200px;
+	height: 200px;
+	background-color: forestgreen;
+	border-radius: 50%;
+	position: absolute;
+	left: 90%;
+	top: 40%;
+	background-color: #009688;
+	background: linear-gradient(90deg, rgba(213,0,201,1) 2%, rgba(22,68,145,1) 33%, rgba(22,35,145,1) 55%, rgba(28,26,173,1) 68%, rgba(0,7,9,1) 100%, rgba(2,0,36,1) 100%, rgba(22,185,237,1) 100%);
+	box-shadow: -30px -40px 20px black inset;
+}
+
+.sun1 {
+	width: 800px;
+	height: 800px;
+	background-color: forestgreen;
+	border-radius: 50%;
+	position: absolute;
+	left: 10%;
+	bottom: .0000000000000001%;
+	background-color: #009688;
+	background: linear-gradient(90deg, rgba(254,183,0,1) 0%, rgba(255,231,0,1) 50%, rgba(255,195,40,1) 100%);
+	box-shadow: 100px -100px 200px yellow;
+}
+
+
+
+.oval {
+ 	width: 60em;
+    height: 80em;
+    background: #87550b;
+    border-radius: 50%;
+    opacity: .5;
+    transform: rotate(110deg);
+    position: absolute;
+    left: 25em;
+    top: 5em;
+}
+
+
+.star1 {
+  
+  
+
+
+}
+
+.star2 {
+
+}
